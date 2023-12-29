@@ -17,7 +17,7 @@ jobs:
         uses: cicirello/generate-sitemap@v1.10.0
         with:
           path-to-root: 
-          base-url-path: http://shivamdongre.in
+          base-url-path: http://shivamdongre.in/
           include-html: # optional, default is true
           include-pdf: # optional, default is true
           sitemap-format: # optional, default is xml
