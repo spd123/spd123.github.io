@@ -1,6 +1,10 @@
 name: generate-sitemap
   # You may pin to the exact commit or the version.
   # uses: cicirello/generate-sitemap@63643192a20862580b2e628ce0e553a8907e9ee9
+on:
+  push:
+    branches:
+        'main'
 uses: cicirello/generate-sitemap@v1.10.0
 with:
     path-to-root: 
